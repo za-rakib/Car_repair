@@ -1,0 +1,23 @@
+.main-nav button {
+ color:#1a20dc;
+ border: 2px solid rgb(38, 47, 128);
+ font-size: 35px;
+}
+.lav-logo{
+  color:red;
+}
+.main-nav.active{
+    background-image: linear-gradient(to bottom right, #d1d1d1,#e9e7ee
+    );
+}
+.main-nav a {
+  color: #2815bb;
+  font-size: 30px;
+  font-weight: bold;
+}
+.main-nav a:hover {
+  background-color: #4e4376;
+  color: #ffffff;
+  transition: 1.5s;
+  transform: rotateY(360deg);
+}

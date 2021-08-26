@@ -1,0 +1,10 @@
+.top-border{
+    height:5px;
+    width:100%;
+    background-color:rgb(16, 43, 117);
+}
+.header-container {
+    /* background-image: url('../../../images/c.webp'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}

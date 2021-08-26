@@ -1,0 +1,19 @@
+.section-counter{
+  background-color:#202020;
+}
+.counter{
+  height:185px;
+}
+.text-number{
+  line-height: 1;
+    font-weight: 700;
+    font-size: 50px;
+    color: #f79f24;
+    display: block;
+    margin-bottom: 15px;
+}
+.text span{
+  text-transform: uppercase;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.7);
+}

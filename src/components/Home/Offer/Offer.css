@@ -1,0 +1,63 @@
+.Offer-header-text h4{
+color: white;
+font-family: "Barlow Condensed", sans-serif;
+}
+.Offer-header-text h2{
+  color: white;
+  font-family: "Barlow Condensed", sans-serif;
+  }
+.offer-container
+{
+    background-color: #0b2154 ;
+    /* #102961 */
+}
+
+.offer-part{
+    background-color:#f7f8ff;
+}
+.offer-part h3{
+  color: #0b2154;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+}
+.offer-part p{ 
+  margin-top:40px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Ubuntu", sans-serif;
+  color: #596277;
+
+}
+.service-list li{
+position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.service-list li::before {
+  content: "✔";
+  border: 2px solid #d81324;
+  position: absolute;
+  font-family: "Font Awesome 5 pro";
+  font-size: 12px;
+  left: 0;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  line-height: 16px;
+  text-align: center;
+  color: #d81324;
+}
+.offer-btn{
+  background-color: white;
+  border: 2px solid #f0f0f0;
+  padding:13px;
+  color: #0b2154;
+  font-weight: bold;
+}
+.offer-btn:hover{
+  background-color:#0b2154;
+  color: white;
+  transition: 1s;
+}
