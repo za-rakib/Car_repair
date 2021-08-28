@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import { Link} from "react-router-dom";
 import "./Navbar.css";
 import logo from '../../../images/logo-2.PNG'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -24,9 +24,7 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul>
             <div className="name lav-logo mt-3">
-             <img style={{height:"60px", width:'100px'}} src={logo} alt="" />{/* <h2>
-                <span to="/home">CAR </span>REPAIR
-              </h2> */}
+             <img style={{height:"60px", width:'100px'}} src={logo} alt="" />
             </div>
           </ul>
         <ul className="navbar-nav ms-auto nav">
@@ -41,18 +39,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link mr-3" to="/test">
-              Gallery
+            <Link className="nav-link mr-5" to="/project">
+             Project
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link mr-3" to="/ourTeam">
-              Our Team
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link className="nav-link mr-3" to="/contactUs">
-              Contact Us
+            <Link className="nav-link mr-5" to="/contactUs">
+              Contact
             </Link>
           </li>
           <li className="nav-item">

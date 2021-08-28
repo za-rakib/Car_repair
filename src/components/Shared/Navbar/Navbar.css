@@ -1,3 +1,8 @@
+
+.main-nav{
+  font-family: 'Libre Baskerville', serif;
+  font-family: 'Prompt', sans-serif;
+}
 .main-nav button {
  color:#1a20dc;
  border: 2px solid rgb(38, 47, 128);
@@ -19,5 +24,5 @@
   background-color: #4e4376;
   color: #ffffff;
   transition: 1.5s;
-  transform: rotateY(360deg);
+height:100%;
 }

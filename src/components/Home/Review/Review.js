@@ -13,7 +13,7 @@ const Review = () => {
             setReview(review)
         })
     return (
-        <section className=" container my-5">
+        <section className=" bg-primary container my-5">
             <h4 className="text-warning text-center my-5">REVIEWS</h4>
             <div className="row container">
             {

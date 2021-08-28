@@ -42,7 +42,7 @@ const Offer = () => {
         {/* offer header */}
       <div className="text-center Offer-header-text pt-5 mb-5">
         <h4>What We Offer</h4>
-        <h2 className='mb-5 pb-5 mt-3'>We Provide Quality Service</h2>
+        <h1 className='pb-3 mt-3'>We Provide Quality Service</h1>
       </div>
 
       <div className="row">

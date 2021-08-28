@@ -40,7 +40,6 @@ const Contact = () => {
     return (
         <section className="contact-section bg-light p-5">
             <h4 className="text-center my-3"><span className="text-warning">Contact</span> With Us</h4>
-
             <form onSubmit={handleSubmit} action="" style={{width:'70%', margin:'0 auto'}}>
                 <div className="row">
                     <div className="col-md-6">

@@ -1,10 +1,12 @@
 .Offer-header-text h4{
 color: white;
 font-family: "Barlow Condensed", sans-serif;
+font-size: 30px;
 }
-.Offer-header-text h2{
+.Offer-header-text h1{
   color: white;
   font-family: "Barlow Condensed", sans-serif;
+ font-size: 50px;
   }
 .offer-container
 {

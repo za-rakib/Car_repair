@@ -1,0 +1,39 @@
+.pricing-card {
+  background-color: #ffffff;
+}
+.excerpt {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
+}
+.price-amount {
+  font-size: 34px;
+  font-weight: 500;
+  color: #064acb;
+}
+.pricing-text {
+  font-family: "Libre Baskerville", serif;
+  font-family: "Prompt", sans-serif;
+  background: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  font-weight: 500;
+  color: #848484;
+}
+.price-btn{
+  background: #064acb;
+  border: 1px solid #064acb;
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.price-btn:hover{
+  background: #fff;
+  color: #064acb;
+  transition: 1s;
+}

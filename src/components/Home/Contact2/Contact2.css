@@ -1,0 +1,45 @@
+.appointment-full{
+  background-image: url(../../../images/contact.webp);
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-position: 50% 45%;
+  height: 646px;
+  width: 100%;
+
+}
+.appointment{
+  width:500px;
+}
+.subheading{
+  font-size: 12px;
+    display: block;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+    font-family: 'Rubik', sans-serif;
+}
+.half h2{
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Rubik', sans-serif;
+}
+.input-field{
+  height:52px;
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+.message-field{
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+}
+
+.form-btn:hover{
+  transition: 1s ;
+  background: #4F95DA;
+  border-color:#4F95DA;
+}
+
+.half{
+  background: #f79f24;
+}

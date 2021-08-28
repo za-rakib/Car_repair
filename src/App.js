@@ -35,10 +35,12 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-  
-          <PrivateRoute path="/dashboard/:servicesType">
+          <Route path="/das">
             <MainDashboard />
-          </PrivateRoute>
+          </Route>
+          {/* <PrivateRoute path="/dashboard/:servicesType">
+            <MainDashboard />
+          </PrivateRoute> */}
           <PrivateRoute path="/admin">
             <AdminDashboard />
           </PrivateRoute>
