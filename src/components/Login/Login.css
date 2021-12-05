@@ -1,7 +1,45 @@
-.login-aria h1{
-    font-size:40px;
-    text-align: center;
-    margin-bottom: 39px;
-    font-weight: bold;
-    color:#854b4b;
+.login-page {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-45deg, #4a7aff, #1c3469, #0a414b);
+  background-size: 400% 400%;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.login-aria {
+  position: absolute;
+  height: 85%;
+  width: 90%;
+  background-color: #ffffff;
+  top: 10%;
+  left: 5%;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+.video video {
+  height: 45%;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  margin-left: 10%;
+}
+.login-part {
+  height: 90%;
+  width: 80%;
+  background-color: #e7ecf2;
+  margin: 5%;
+  box-shadow: 0 2px 4px 0 #00000033, 0 4px 5px 0 #00000030;
+  border-radius: 5%;
 }
