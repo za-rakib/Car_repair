@@ -1,0 +1,73 @@
+.login-part {
+    height: 100%;
+    width: 85%;
+    background-color: #e7ecf2;
+    margin: 5%;
+    box-shadow: 0 2px 4px 0 #00000033, 0 4px 5px 0 #00000030;
+    border-radius: 5%;
+    margin-right: 10%;
+    padding: 25px;
+    font-family: Helvetica , Helvetica, Arial, sans-serif;
+  }
+  .login-part h4{
+      color:#1c3469;
+      font-weight: bold;
+  }
+  .login-part p{
+      color:#6f7881;
+  }
+  
+  .login-part span{
+      color:#ff7102;
+      margin-left: 100px;
+  }
+ .password span{
+    margin-left: 160px;
+ }
+ .login-part h6{
+     font-weight: bold;
+     color:#5675cb;
+ }
+ .input-class{
+     border: 2px solid #7c8bad;
+ }
+ 
+ .login-button button{
+     background-color: #0066e2;
+     width: 100%;
+     border:none;
+     padding:8px;
+     color: #fff;
+     font-weight: bold;
+     font-size:20px;
+     border-radius: 5px;
+ }
+
+ .line{
+    margin-top:10px;
+    width: 36%;
+    height: 2px;
+    background-color: #7c8bad;
+}
+
+.socialIcon button{
+    background-color: #fff;
+    height:40px;
+    width:40%;
+}
+.socialIcon img{
+    height:20px;
+    width: 25px;
+}
+.google{
+    color:#ff6319;
+    font-size: 18px;
+    border: 2px solid #f5a985;
+    border-radius:5px;
+}
+.facebook{
+    color:#3b5998;
+    font-size: 18px;
+    border: 2px solid #617bb3;
+    border-radius:5px;
+}

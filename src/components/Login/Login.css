@@ -26,6 +26,7 @@
   top: 10%;
   left: 5%;
   box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+  border-radius: 10px;
 }
 .video video {
   height: 45%;
@@ -33,13 +34,6 @@
   justify-content: center;
   align-items: center;
   padding-top: 2%;
-  margin-left: 10%;
+  margin-left: 15%;
 }
-.login-part {
-  height: 90%;
-  width: 80%;
-  background-color: #e7ecf2;
-  margin: 5%;
-  box-shadow: 0 2px 4px 0 #00000033, 0 4px 5px 0 #00000030;
-  border-radius: 5%;
-}
+

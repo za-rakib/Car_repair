@@ -6,6 +6,7 @@ import { UserContext } from "./../../App";
 import { useHistory, useLocation } from "react-router";
 import "./Login.css";
 import loginVideo from "../../images/loginVideo.mp4";
+import LoginPart from "./LoginPart";
 
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
@@ -60,13 +61,8 @@ const Login = () => {
               </video>
             </div>
           </div>
-          <div className="col-md-5 d-flex justify-content-center">
-            <div className="login-part">
-              <h3>Login</h3>
-              <h6>
-                Doesn't have an account yet? <span> Sign Up </span>
-              </h6>
-            </div>
+          <div className="col-md-5">
+            <LoginPart/>
           </div>
         </div>
       </div>
